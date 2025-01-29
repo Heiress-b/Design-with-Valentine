@@ -549,14 +549,14 @@ p.introduction-paragraph {
 }
 
 .introduction img.ellipse {
-    height: 350px;
+    height: 400px;
 }
 
 .introduction img.bg-image {
     position: absolute;
     bottom: 25%;
-    left: 50%;
-    height: 300px;
+    left: 40%;
+    height: 350px;
     margin-top: -60px;
 }
 
