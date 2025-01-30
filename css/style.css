@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Montserrat;
+    font-family: exo;
     overflow-x: hidden
 }
 
@@ -41,14 +41,13 @@ header .row #top-nav li a:hover {
 
 #btn-parent #people-img {
     position: absolute;
-    left: 120px;
-    top: 3px;
+    left: 110px;
+    top: 5px;
 }
 
 section {
     margin-top: 150px;
 }
-
 
 header div#val-design p {
     font-size: 18px;
@@ -381,10 +380,22 @@ div#work-together p {
     font-size: 32px;
 }
 
-#work-together img.img {
+#work-together img.img-services {
     position: absolute;
-    bottom: 20%;
-    left: 49%;
+    bottom: 18%;
+    left: 49.5%;
+}
+
+#work-together img.img-home {
+    position: absolute;
+    bottom: 13%;
+    left: 49.5%;
+}
+
+#work-together img.img-about {
+    position: absolute;
+    bottom: 13%;
+    left: 49.5%;
 }
 
 footer {
@@ -630,6 +641,10 @@ h1.works  {
     margin-bottom: 30px;
 }
 
+.lastrow-works {
+    padding-bottom: 30px;
+}
+
 @media (max-width: 600px) {
     header div#val-design p {
         font-size: 14px;
@@ -647,6 +662,16 @@ h1.works  {
         font-weight:700;
         font-size: 24px;
         color: #2C3E50;
+    }
+
+    section div#about-me-position {
+        padding-top: 30px;
+    }
+
+    section div#about-me-position div#n-positioning-parent {
+        position: absolute;
+        top: -10%;
+        right: 25%;
     }
 
     main div#skills {
@@ -862,6 +887,32 @@ h1.works  {
     
     p.introduction-paragraph {
         font-size: 12px;
+    }
+
+    #submit-btn {
+        padding-top: 50px;
+    }
+
+    #work-together img.img-services {
+        position: absolute;
+        bottom: 16.5%;
+        left: 47.5%;
+    }
+    
+    #work-together img.img-home {
+        position: absolute;
+        bottom: 13%;
+        left: 47.5%;
+    }
+    
+    #work-together img.img-about {
+        position: absolute;
+        bottom: 13%;
+        left: 47.5%;
+    }
+
+    .lastrow-works {
+        padding-bottom: 0px;
     }
     
 }

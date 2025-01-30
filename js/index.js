@@ -55,7 +55,7 @@ document.getElementById('connect').addEventListener('submit', (e) => {
         submitBtn.style.cursor = "default";
 
         setTimeout(() => {
-            // Hide response message after 3 seconds
+            // Hide response message after 10 seconds
             responseMessage.style.display = "none";
         }, 10000);
     });
