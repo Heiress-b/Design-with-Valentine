@@ -1,3 +1,4 @@
+
 document.getElementById('connect').addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -7,6 +8,7 @@ document.getElementById('connect').addEventListener('submit', (e) => {
     // Disable the button while sending
     submitBtn.disabled = true;
     submitBtn.style.cursor = "not-allowed";
+    
 
     let username = document.getElementById('Name').value;
     let useremail = document.getElementById('Email').value;
@@ -36,7 +38,7 @@ document.getElementById('connect').addEventListener('submit', (e) => {
         responseMessage.textContent = "Message sent successfully! ✅";
         responseMessage.style.color = "black";
         responseMessage.style.fontWeight = "40px"
-
+        responseMessage.style.textAlign = "center"
         console.log(data)
 
         // Reset form fields
@@ -55,9 +57,9 @@ document.getElementById('connect').addEventListener('submit', (e) => {
         submitBtn.style.cursor = "default";
 
         setTimeout(() => {
-            // Hide response message after 10 seconds
+            // Hide response message after 5 seconds
             responseMessage.style.display = "none";
-        }, 10000);
+        }, 5000);
     });
         
 })

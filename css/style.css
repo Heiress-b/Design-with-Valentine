@@ -25,9 +25,12 @@ header .row #top-nav li a {
 }
 
 header .row #top-nav li a:hover {
-    background-color: #ddd;
-    border-radius: 5px;
-    padding: 10px;
+    color: #0E1520;
+    font-weight: 600;
+}
+
+header .row #top-nav li a.active {
+    border-bottom: 2px solid #0E1520;
 }
 
 #btn-parent {
@@ -90,7 +93,7 @@ section div#xd-positioning {
 
 section div#N-positioning img.shadow {
     position: absolute;
-    left: 40%;
+    left: 37%;
     top: 30%;
     width: 20px;
     height: 30px;
@@ -109,7 +112,7 @@ section div#N-positioning img.shadow {
 
 section div#figma-positioning img.shadow {
     position: absolute;
-    left: 48%;
+    left: 35%;
     top: 30%;
     width: 20px;
     height: 30px;
@@ -127,7 +130,7 @@ section div#linkedin-positioning img.shadow {
 
 section div#xd-positioning img.shadow {
     position: absolute;
-    left: 48%;
+    left: 35%;
     top: 30%;
     width: 20px;
     height: 30px;
@@ -606,21 +609,30 @@ p.introduction-paragraph {
     margin-bottom: 20px;
 }
 
+.services-body:hover img {
+    background: linear-gradient(to right, #082857 20%, #082857 100%);
+}
+
 .services-body {
     background: linear-gradient(to right, #1157BD 20%, #082857 100%);
     padding: 20px;
     margin-bottom: 30px;
+    color: white;
+    height: 250px;
+}
+
+.services-body:hover {
+    background: white ;
+    color: black;
 }
 
 .services-body h5 {
     font-size: 20px;
-    color: #ffff;
     text-align: center;
 }
 
 .services-body p {
     font-size: 13px;
-    color: #ffff;
     text-align: center;
 }
 
@@ -704,6 +716,10 @@ h1.works  {
         font-weight: 700;
         font-size: 20px;
         color:#395886;
+    }
+
+    .main-services {
+        margin-top: 0px ;
     }
 
     article {
