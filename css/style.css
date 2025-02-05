@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: exo;
+    font-family: Montserrat;
     overflow-x: hidden
 }
 
@@ -22,6 +22,7 @@ header .row {
 header .row #top-nav li a {
     text-decoration: none;
     color: black;
+    font-family: Montserrat;
 }
 
 header .row #top-nav li a:hover {
@@ -37,6 +38,11 @@ header .row #top-nav li a.active {
     position: relative;
 }
 
+#btn-parent-2-desktop {
+    position: relative;
+}
+
+
 #btn-parent button {
     background: linear-gradient(187.48deg, #0E1520 11.69%, #395886 169.68%);
     color: white;
@@ -44,8 +50,19 @@ header .row #top-nav li a.active {
 
 #btn-parent #people-img {
     position: absolute;
-    left: 110px;
-    top: 5px;
+    left: 120px;
+    top: 3px;
+}
+
+#btn-parent-2-desktop button {
+    background: linear-gradient(187.48deg, #0E1520 11.69%, #395886 169.68%);
+    color: white;
+}
+
+#btn-parent-2-desktop #people-img {
+    position: absolute;
+    left: 120px;
+    top: 12px;
 }
 
 section {
@@ -184,9 +201,16 @@ main div#skills h5 {
 }
 
 main div#skills p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #4F4F4F;
+    font-family: Roboto;
+}
+
+main div#skills p a {
+    text-decoration: none;
+    color: #082857;
+    font-weight: 500;
 }
 
 article p#my-services {
@@ -238,6 +262,7 @@ article p#my-services {
 .text p {
     font-size: 15px;
     float: right;
+    font-family: exo;
 }
 
 .inner-icons {
@@ -325,6 +350,7 @@ article p#my-services {
     right: -5%;
     bottom: 45%;
 }
+
 
 @keyframes rotateInner {
     0% {
@@ -525,7 +551,7 @@ footer ul li a:hover {
 
 .wearluxe-firstchild {
     background-color: #ffff;
-    padding: 20px;
+    padding: 20px 0px;
     width: 80%;
 }
 
@@ -555,7 +581,8 @@ footer ul li a:hover {
 }
 
 p.introduction-paragraph {
-    font-size: 14px;
+    font-size: 18px;
+    padding-top: 20px;
 }
 
 .introduction {
